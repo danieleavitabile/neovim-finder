@@ -13,6 +13,13 @@
       "subtitle": "Open Path",
       "description": "Open current Finder directory in Neovim under iTerm2",
       "mode": "no-view"
+    },
+    {
+      "name": "neovimNote",
+      "title": "Neovim Note",
+      "subtitle": "Open Note",
+      "description": "Open a note file in Destkop using Neovim under iTerm2",
+      "mode": "no-view"
     }
   ],
   "dependencies": {

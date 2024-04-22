@@ -10,12 +10,14 @@ export default async () => {
         set filename to "~/Library/CloudStorage/Dropbox/Notes/note.md"
         set windowname to "note.md (~/Library/CloudStorage/Dropbox/Notes) - NVIM"
 
-        -- Set window bounds
-        set x0 to 2500
-        set y0 to 0 
-        set dx to 700
-        set dy to 900
+#       -- Set window bounds
+#        set x0 to 2500
+#        set y0 to 0 
+#        set dx to 700
+#        set dy to 900
 
+        -- Set command to open the file and auto exit after done
+        set sizeCmd to "open -g raycast://extensions/raycast/window-management/reasonable-size"
         -- Set command to open the file and auto exit after done
         set openCmd to "nvim -- " & filename & " &&exit"
 
@@ -34,8 +36,9 @@ export default async () => {
               activate
             end if
             set win1 to create window with default profile
-            set bounds of win1 to {x0, y0, x0 + dx, y0 + dy}
+#set bounds of win1 to {x0, y0, x0 + dx, y0 + dy}
             tell current session of current window
+               write text sizeCmd
                write text openCmd
             end tell
           end if

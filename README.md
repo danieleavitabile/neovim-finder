@@ -18,4 +18,4 @@ At present the extension relies on [iTerm2](https://iterm2.com) and it has just 
  
 ## Acknowledgements
 
-The Neovim logo used in the icons is by [Jason Long](https://twitter.com/jasonlong), under CC BY 3.0. license (according to the [Neovim's website](www.neovim.org))
+The Neovim logo used in the icons is by [Jason Long](https://twitter.com/jasonlong), under CC BY 3.0. license (according to the [Neovim's website](www.neovim.io))

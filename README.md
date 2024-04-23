@@ -8,4 +8,4 @@ At present the extension relies on [iTerm2](https://iterm2.com) and it has just 
 
 * Finder → Neovim: opens a Finder folder (or file) in neovim. This extension is similar in spirit to the [Finder Terminal](https://www.raycast.com/yedongze/terminalfinder) extension, but it goes one step further by invoking iTerm2 and opening a neovim instance within it.
 
-* Neovim Note: opens a note file with neovim or, if a note file is already open in neovim, it puts iTerm2 window in focus. At the moment the folder and naming conventions of the note file are hardwired in the code. I would like to let the users specify a folder and a filename, eventually.
+* Neovim Note: opens a note file with neovim or, if a note file is already open in neovim, it puts the corresponding iTerm2 window in focus. At the moment the folder and naming conventions of the note file are hardwired in the code. I would like to let the users specify a folder and a filename, eventually.

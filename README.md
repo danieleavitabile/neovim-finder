@@ -17,4 +17,5 @@ At present the extension relies on [iTerm2](https://iterm2.com) and it has just 
 * The Neovim Note command uses Raycast's [Window Management](https://www.raycast.com/extensions/window-management). As explained [here](https://manual.raycast.com/deeplinks#block-d1a7b2b605124a539323503f225301e3) this has can not be done using deeplinks. The Window Management extension requires Accessibility permissions to be turned on in your Security and Privacy settings. When you run a window management command for the first time, you will see some dialog regarding this. Also, when you run Neovim Note for the first time you should permanently allow for this operation to take place.
  
 ## Acknowledgements
+
 The Neovim logo used in the icons is by [Jason Long](https://twitter.com/jasonlong), under CC BY 3.0. license (according to the [Neovim's website](www.neovim.org))

@@ -1,6 +1,6 @@
 # neovim-finder
 
-This is an experimental [Raycast](http://raycast.com/) extension that provides some useful commands to integrate Raycast with [neovim](https://neovim.io). 
+This is an experimental [Raycast](http://raycast.com/) extension that provides useful commands to integrate Raycast with [neovim](https://neovim.io). 
 
 At the moment this is simply a side project, which mostly suits my needs, and has no ambition to be a widely-usable extension. I am mostly developing based on my needs, and to learn a bit coding with Raycast. I am very interested in feedback, of course.
 

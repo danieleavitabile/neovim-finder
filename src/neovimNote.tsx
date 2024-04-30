@@ -29,12 +29,13 @@ export default async () => {
 
         tell application "iTerm"
           set hasNotes to exists window windowname 
+          activate
           if isRunning and hasNotes then
             select first window where name is windowname
           else
-            if isRunning is false then
-              activate
-            end if
+#            if isRunning is false then
+#              activate
+#            end if
             set win1 to create window with default profile
 #set bounds of win1 to {x0, y0, x0 + dx, y0 + dy}
             tell current session of current window
